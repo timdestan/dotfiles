@@ -1,0 +1,18 @@
+[user]
+        name = Tim Destan
+        email = tim.destan@gmail.com
+[push]
+        default = simple
+[filter "lfs"]
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+[alias]
+        aa = add --all
+        ci = commit
+        co = checkout
+        di = diff
+        ds = diff --staged
+        l = log --pretty=format:\"%C(yellow)%h%C(reset) %ad %C(green)%s%C(reset)%C(red)%d%C(reset) [%an]\" --graph --date=short
+        st = status
