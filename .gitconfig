@@ -12,7 +12,7 @@
         aa = add --all
         ci = commit
         co = checkout
-        di = diff
+        d = diff
         ds = diff --staged
         dc = diff --cached
         dh = diff HEAD~1 HEAD
@@ -22,4 +22,5 @@
         st = status
         p = status
 
-        sls = stash show
+        sl = stash list
+        ss = stash show
