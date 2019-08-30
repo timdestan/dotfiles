@@ -24,3 +24,5 @@
 
         sl = stash list
         ss = stash show
+[url "git@github.com:"]
+	insteadOf = https://github.com/
