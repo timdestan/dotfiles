@@ -9,7 +9,7 @@ set -o nounset
 while (( "$#" )); do
   case "$1" in
     -v|--verbose)
-      set -x
+      set -o xtrace
       shift
       ;;
     *) # unsupported flags or extra arguments.
