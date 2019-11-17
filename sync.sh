@@ -32,6 +32,7 @@ done
 FILES=(
   .gitconfig
   .tmux.conf
+  .inputrc
   .cargo/config
 )
 

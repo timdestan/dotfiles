@@ -1,0 +1,18 @@
+# We need to include settings from the system-wide file, we don't
+# inherit them by default.
+$include /etc/inputrc
+
+# Disable audible bell.
+set bell-style none
+
+# Case-insensitive file completion.
+set completion-ignore-case on
+
+# Display all possible completions when there is more than one.
+set show-all-if-ambiguous on
+
+# Better behavior when completing in the middle of a word.
+set skip-completed-text on
+
+# Show extra file information when completing, e.g. trailing / for directories.
+set visible-stats on
