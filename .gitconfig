@@ -17,7 +17,7 @@
         dc = diff --cached
         dh = diff HEAD~1 HEAD
 
-        l = !git log --color --pretty=format:\"%C(yellow)%h%C(reset) %ad %C(green)%s%C(reset)%C(red)%d%C(reset) [%an]\" --graph --date=short | less --no-init --quit-if-one-screen
+        l = !git log --color --pretty=format:\"%C(yellow)%h%C(reset) %ad %C(green)%s%C(reset)%C(red)%d%C(reset) [%an]\" --graph --date=short | less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS
 
         st = status
         p = status
