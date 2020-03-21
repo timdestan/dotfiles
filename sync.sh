@@ -33,6 +33,7 @@ FILES=(
   .gitconfig
   .tmux.conf
   .inputrc
+  .rustfmt.toml
   .cargo/config
 )
 
