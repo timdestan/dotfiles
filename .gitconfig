@@ -10,6 +10,7 @@
         clean = git-lfs clean -- %f
 [alias]
         aa = add --all
+        amend = commit -a --amend --no-edit
         ci = commit
         co = checkout
         d = diff
