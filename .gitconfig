@@ -3,6 +3,8 @@
         email = tim.destan@gmail.com
 [push]
         default = simple
+[pull]
+        ff = only
 [filter "lfs"]
         smudge = git-lfs smudge -- %f
         process = git-lfs filter-process
